@@ -1,0 +1,31 @@
+.navbar{
+    background-color: $maincolor;
+    font-family: $arfont;
+
+    padding: 14px 10px;
+    text-align: right;
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                color: $white;
+                font-size: $Fsize + 2;
+                font-weight: weight(medium);
+                transition: .5s;
+                @media (max-width: 900px)
+                {
+                    font-size: 13px;
+                }
+        }
+        }
+        
+    }
+    .navbar-toggler{
+        background-color: $white;
+   }
+}
+
+video {
+    width: 100%;
+    height: auto;
+  }
+

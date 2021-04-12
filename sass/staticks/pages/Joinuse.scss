@@ -1,0 +1,38 @@
+.Join{
+    @extend .maine;
+    text-align: center;
+    h2{
+        font-weight: weight(bold);
+    }
+    .blog-card{
+        border: 1px solid #e5e5e5;
+
+    }
+    .btn-1{
+        color: $white !important;
+        padding: 10px 20px !important;
+        @media (max-width: 992px){
+            padding: unset;
+            background-color: transparent;
+            color: $maincolor !important;
+        }
+    }
+    .read-more{
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+        @media (max-width: 992px){
+            margin-top: 15px !important;
+            margin-bottom: 15px !important;
+
+            background-color: transparent;
+            color: $maincolor !important;
+        }
+    }
+    h5{
+        font-size: $Fsize;
+            font-weight: 300;
+            text-transform: uppercase;
+            color: #000;
+            margin-top: 5px;
+    }
+}

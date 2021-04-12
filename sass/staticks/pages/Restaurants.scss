@@ -1,0 +1,53 @@
+.Restaurants{
+    padding:0 $padding - 60 ;
+    @media (max-width: 992px){
+        padding: unset;
+    }
+    .all{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:0 15px;
+    background-color: $darkgray;
+
+    }
+    
+    
+    .Restur{
+        padding:$padding - 90 ;
+        box-shadow: $box-shadow;
+        border: 1px solid #e5e5e5;
+        @media (max-width: 992px){
+            padding: unset;
+            box-shadow: unset;
+            border: unset;
+
+        }
+        figure{
+            border: 1px solid #e5e5e5;
+            text-align: center;
+            color: $dark;
+            font-size: $Fsize;
+            color: $dark;
+            font-weight: weight(bold);
+            img{
+                padding: 15px 30px;
+            }
+            figcaption{
+                padding: 5px;
+                border: 1px solid #e5e5e5;
+                @media (max-width: 992px){
+                    padding: unset;
+                }
+                .p{
+                    font-weight: weight(bold);
+                    color:rgb(114, 114, 114);
+                    font-size: $Fsize - 2;
+
+                }
+
+            }
+        }
+    }
+    
+}

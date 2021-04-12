@@ -1,0 +1,12 @@
+@function weight($weight-name){
+    @return map-get($font-weights, $weight-name );
+  }
+  $text-color:#000;
+    $main-color:red;
+    $font-weights: (
+        "regular":400,
+        "medium":500,
+        "bold":700,
+        "bolder":900,
+  
+    );

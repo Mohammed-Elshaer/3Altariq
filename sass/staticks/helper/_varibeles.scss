@@ -1,0 +1,26 @@
+// $maincolor: #ff5a00;
+$maincolor: #5db300;
+// $maincolor: #b34b00;
+$childcolor:#ff9459;
+$greycolor: #727272;
+$white:#ffffff;
+$dark:#262626;
+$darkgray:#F6F6F6;
+$bordercolor:#e5e5e5;
+
+$arfont:  'Cairo', sans-serif;
+
+$Fsize:14px;
+$padding: 100px;
+$mrtop:40px;
+$box-shadow: 0px 5px 39px rgba(228, 224, 224, 0.2);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+$box-shadow:0 3px 7px -1px rgba(#000, .1);

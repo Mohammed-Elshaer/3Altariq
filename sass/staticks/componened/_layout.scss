@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+body,html{
+font-family: $arfont;
+   direction: rtl;
+}
+::-webkit-scrollbar
+{
+    width: 0px;
+}
+::-webkit-scrollbar-track-piece
+{
+    background-color: transparent;
+    -webkit-border-radius: 6px;
+}
+a{
+    text-decoration: none;
+    color: $dark;
+    &:hover{
+        text-decoration: none;
+        color: $dark;
+    }
+}
+ul,li,ol{
+    list-style: none;
+}
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.input-group{
+    justify-content: start;
+    .form-control:focus,.input-group-text {
+        outline: 0 !important;
+        border-color: $bordercolor;
+        box-shadow: none;
+    }
+   .form-control{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+       margin-bottom: 30px;
+       border-left: none;
+       border-color: $bordercolor;
+   }
+   .input-group-text{
+    background-color: transparent;
+    border-right: none !important;
+    margin-bottom: 30px;
+    border-color: $bordercolor;
+
+   }
+   .placeholder{
+    justify-content: right;
+   }
+}
+

@@ -1,0 +1,60 @@
+.footer{
+    padding:  $padding - 50;
+    font-family: $arfont;
+
+    background-color: $dark;
+    color: $white;
+    border-top: 8px solid $maincolor;
+    margin: 0 auto;
+    text-align: center;
+    @media (max-width: 900px)
+    {
+       padding: unset;
+    }
+    .call{
+      padding: 0 200px;
+      border-bottom: 1px solid $greycolor;
+      @media (max-width: 900px)
+      {
+         padding: unset;
+      }
+    }
+    h6{
+      color: $greycolor;
+      transition: .5s;
+      &:hover{
+        color: $maincolor;
+      }
+    }
+    .call-1{
+      padding: 0 200px;
+      margin-top: 50px;
+      @media (max-width: 900px)
+      {
+         padding: unset;
+      }
+    }
+    .social{
+      text-align: center;
+      margin-top: 15px;
+      .fab{
+        background-color: $maincolor;
+        color: $white;
+        margin-bottom: 15px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 50%;
+        font-size: 18px;
+        // transition: .5s;
+        &:hover{
+          background-color: $childcolor;
+          border: none;
+        }
+      }
+    }
+    .call-3{
+      border-bottom: 1px solid $greycolor;
+
+    }
+  }
