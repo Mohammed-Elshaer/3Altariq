@@ -86,6 +86,26 @@ section {
   }
 }
 
+.btn-11 {
+  outline: none;
+  box-shadow: none;
+  background-color: #ff9459;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 12px 15px;
+  border-radius: 8px;
+  line-height: 1;
+}
+.btn-11:hover {
+  background-color: #205527;
+  color: #ffffff;
+}
+@media (max-width: 576px) {
+  .btn-11 {
+    padding: 5px 25px;
+  }
+}
+
 .btn-1 {
   border-radius: 8px;
   line-height: 1.25;
@@ -93,7 +113,7 @@ section {
   box-shadow: none !important;
   height: auto !important;
   text-transform: none;
-  background-color: #5db300;
+  background-color: #205527;
   text-align: center;
   font-size: 16px;
   color: #ffffff;
@@ -101,7 +121,7 @@ section {
   border: none;
 }
 .navbar {
-  background-color: #5db300;
+  background-color: #205527;
   font-family: "Cairo", sans-serif;
   padding: 14px 10px;
   text-align: right;
@@ -166,7 +186,7 @@ video {
   color: inherit;
 }
 .maine .blog-card a:hover, .rustran-details .blog-card a:hover, .Join .blog-card a:hover {
-  color: #5db300;
+  color: #205527;
 }
 .maine .blog-card:hover .photo, .rustran-details .blog-card:hover .photo, .Join .blog-card:hover .photo {
   transform: scale(1.3) rotate(3deg);
@@ -252,7 +272,7 @@ video {
   text-align: right;
 }
 .maine .blog-card .description .read-more a, .rustran-details .blog-card .description .read-more a, .Join .blog-card .description .read-more a {
-  color: #5db300;
+  color: #205527;
   position: relative;
 }
 .maine .blog-card .description .read-more a:after, .rustran-details .blog-card .description .read-more a:after, .Join .blog-card .description .read-more a:after {
@@ -278,7 +298,7 @@ video {
   content: "";
   position: absolute;
   height: 5px;
-  background: #5db300;
+  background: #205527;
   width: 50px;
   top: -0.75rem;
   border-radius: 3px;
@@ -327,7 +347,7 @@ video {
   font-family: "Cairo", sans-serif;
   background-color: #262626;
   color: #ffffff;
-  border-top: 8px solid #5db300;
+  border-top: 8px solid #205527;
   margin: 0 auto;
   text-align: center;
 }
@@ -350,7 +370,7 @@ video {
   transition: 0.5s;
 }
 .footer h6:hover {
-  color: #5db300;
+  color: #205527;
 }
 .footer .call-1 {
   padding: 0 200px;
@@ -366,7 +386,7 @@ video {
   margin-top: 15px;
 }
 .footer .social .fab {
-  background-color: #5db300;
+  background-color: #205527;
   color: #ffffff;
   margin-bottom: 15px;
   width: 35px;
@@ -400,7 +420,7 @@ video {
   .Join .btn-1 {
     padding: unset;
     background-color: transparent;
-    color: #5db300 !important;
+    color: #205527 !important;
   }
 }
 .Join .read-more {
@@ -412,7 +432,7 @@ video {
     margin-top: 15px !important;
     margin-bottom: 15px !important;
     background-color: transparent;
-    color: #5db300 !important;
+    color: #205527 !important;
   }
 }
 .Join h5 {
@@ -523,7 +543,7 @@ video {
   height: 600px;
 }
 .rustran-details .rustra .pay {
-  background-color: #5db300;
+  background-color: #205527;
   color: #ffffff;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -546,7 +566,7 @@ video {
 }
 .rustran-details .rustra .box .icon .fa-shopping-bag {
   font-size: 50px;
-  color: #5db300;
+  color: #205527;
 }
 .rustran-details .rustra .menu {
   box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
@@ -588,7 +608,7 @@ video {
   font-weight: 700;
   background-color: #F6F6F6;
   color: #262626;
-  border-right: 5px solid #5db300;
+  border-right: 5px solid #205527;
   border-left: 1px solid transparent;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
@@ -602,7 +622,7 @@ video {
   transition: 0.3s;
 }
 .rustran-details .rustra details summary:hover {
-  border-color: #5db300;
+  border-color: #205527;
 }
 .rustran-details .rustra details summary:after {
   content: "+";
@@ -656,9 +676,9 @@ video {
   line-height: 25px;
   text-align: center;
   border-radius: 50%;
-  background-color: #5db300;
+  background-color: #205527;
   color: #ffffff;
-  border: 1px solid #5db300;
+  border: 1px solid #205527;
 }
 .rustran-details .rustra .detael .price-1 .add {
   display: none;
@@ -666,7 +686,7 @@ video {
   font-weight: 700;
 }
 .rustran-details .rustra .detael .price-1:hover {
-  color: #5db300;
+  color: #205527;
   background-color: transparent;
 }
 .rustran-details .rustra .detael .price-1:hover .plus {
@@ -697,7 +717,7 @@ video {
   }
 }
 .rustran-details .shop .btn {
-  background-color: #5db300;
+  background-color: #205527;
 }
 
 .thumbnail:hover {
@@ -738,7 +758,7 @@ video {
 
 .active::after {
   position: absolute;
-  border-bottom: 2px solid #5db300;
+  border-bottom: 2px solid #205527;
   content: "";
   margin: 0 auto;
   position: absolute;
@@ -804,7 +824,7 @@ th {
 }
 
 .men {
-  color: #5db300 !important;
+  color: #205527 !important;
 }
 
 .men-1 {
